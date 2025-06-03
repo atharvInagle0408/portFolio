@@ -5,6 +5,7 @@ const textVariants = {
     initial: {
         x: -500,
         opacity: 0,
+        
     },
     animate: {
         x: 0,
@@ -55,7 +56,7 @@ export const Hero = () => {
                     animate="animate"
                 >
                     <motion.h2 variants={textVariants}>ATHARV INGALE</motion.h2>
-                    <motion.h1 variants={textVariants}>Web Developer & <br/> Front-End Designer</motion.h1>
+                    <motion.h1 variants={textVariants}>Web Developer & <br/> Front-End Engineer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants}>See the Latest Works</motion.button>
                         <motion.button variants={textVariants}>Contact Me</motion.button>
@@ -74,7 +75,8 @@ export const Hero = () => {
             </motion.div>
             <div className="imageContainer">
                { /*<img src="/vrusha.png" alt="" />*/}
-               <img src="/hero.png" alt="" />
+               {/* <img src="/hero.png" alt="" /> */}
+               <img src="/DSC_0008.png" alt="" />
                
             </div>
         </div>

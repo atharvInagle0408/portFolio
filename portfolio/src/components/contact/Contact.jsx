@@ -34,14 +34,23 @@ export const Contact = () => {
 
   const isInView = useInView (ref,{margin:"-100px"});
 
+  console.log(
+  import.meta.env.VITE_SERVICE_ID,
+  import.meta.env.VITE_TEMPLATE_ID,
+  import.meta.env.VITE_PUBLIC_KEY
+);
+
   const sendEmail = (e) => {
+    // alert("BHAI FORM BHARA ")
     e.preventDefault();
 
-    emailjs.sendForm('service_7jqlqul', 'template_fxxziln', formRef.current, 'P8aySk1lpJgom7HMJ')
+    // emailjs.sendForm('service_7jqlqul', 'template_fxxziln', formRef.current, 'P8aySk1lpJgom7HMJ')
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID , import.meta.env.VITE_TEMPLATE_ID, formRef.current,import.meta.env.VITE_PUBLIC_KEY)
       .then((result) => {
           setSuccess(true)
       }, (error) => {
           SetError(true);
+          alert("ERRRR",error)
       });
     }
  

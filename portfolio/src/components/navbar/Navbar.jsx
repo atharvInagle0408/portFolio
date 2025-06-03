@@ -14,8 +14,8 @@ export default function Navbar() {
              <div className="social">
                 <a href="#"><img src="/facebook.png" alt="" /></a>
                 <a href="#"><img src="/instagram.png" alt="" /></a>
-                <a href="#"><img src="/link3.png" alt="" /></a>
-                <a href="#"><img src="/github.png" alt="" /></a>
+                <a href="https://linkedin.com/in/atharv-ingale1714"  target="_blank"><img src="/link3.png" alt="" /></a>
+                <a href="https://github.com/atharvInagle0408"  target="_blank"><img src="/github.png" alt="" /></a>
              </div>
         </div>
     </div>
