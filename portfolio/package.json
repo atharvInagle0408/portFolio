@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://atharvInagle0408.github.io/portFolio-Athrv-408/",
+  "homepage": "https://atharvInagle0408.github.io/portFolio/tree/main/portfolio/",
   
   "scripts": {
     "dev": "vite",
