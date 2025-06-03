@@ -64,7 +64,7 @@ export const Hero = () => {
 
                  
                     
-                    <motion.img variants={textVariants}  animate="scrollButton" src="/scroll.png" alt="" />
+                    <motion.img variants={textVariants}  animate="scrollButton" src="./scroll.png" alt="" />
                     
                     
                 </motion.div>
@@ -76,7 +76,7 @@ export const Hero = () => {
             <div className="imageContainer">
                { /*<img src="/vrusha.png" alt="" />*/}
                {/* <img src="/hero.png" alt="" /> */}
-               <img src="/DSC_0008.png" alt="" />
+               <img src="./DSC_0008.png" alt="" />
                
             </div>
         </div>
